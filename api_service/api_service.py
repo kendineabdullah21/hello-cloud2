@@ -10,10 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-"DATABASE_URL" = os.getenv(
-
-"DATABASE_URL","postgresql://abdulleh:djphRJPLpomlNPYmvoqnJpDf11oK0v9t@dpg-d3tjhbhr0fns73ahthq0-a.oregon-postgres.render.com/hello_cloud2_db_7avp"
-
+"DATABASE_URL" = os.getenv("postgresql://abdulleh:djphRJPLpomlNPYmvoqnJpDf11oK0v9t@dpg-d3tjhbhr0fns73ahthq0-a.oregon-postgres.render.com/hello_cloud2_db_7avp"
 
 )
 
